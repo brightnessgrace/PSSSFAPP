@@ -2,17 +2,12 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { View, Text } from 'react-native';
 import Memberprofile from '../component/Profiles/Memberprofile';
+import ContributionStatement from '../component/Profiles/ContributionStatement';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Fontiso from 'react-native-vector-icons/Fontisto';
 
 
-function ContributionStatement() {
-    return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-        <Text>ContributionStatement!</Text>
-      </View>
-    );
-  }
+
 
 
 const Tab = createBottomTabNavigator();

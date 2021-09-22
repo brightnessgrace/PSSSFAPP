@@ -7,11 +7,12 @@
  */
 
 import React, {useEffect, useState} from 'react';
+import { Alert, View,Text,Button,FlatList } from 'react-native';
+import axios  from 'axios';
 import HomeScreen from './src/screens/Homescreen';
-import Memberapi from './src/apis/Memberapi';
 
 
-export default function App() {
+/*export default function App() {
 
   return (
 
@@ -22,13 +23,7 @@ export default function App() {
 
   );
   };
-/*
-
-
-import React, {useEffect, useState} from 'react';
-import { Alert, View,Text,Button,FlatList } from 'react-native';
-import axios  from 'axios';
-import HomeScreen from './src/screens/Homescreen';
+*/
 
 const App = () => {
     
@@ -95,4 +90,4 @@ const App = () => {
   }
 
 
-export default  App;*/
+export default  App;
